@@ -1,0 +1,28 @@
+<html>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <body>
+    <input type="button" value="Рандом" name="Рандом" id="submit">
+    <script>
+    'use strict';
+var submit = document.getElementById('submit');
+submit.onclick = function() {
+function randomInteger(min, max) {
+        var rand = min - 0.5 + Math.random() * (max - min + 1)
+        rand = Math.round(rand);
+        return rand;
+      }
+      
+    var a = +prompt("Случайное число от...", "");
+    var b = +prompt("До... ", "");
+    alert( randomInteger(a, b) );
+return false;
+}
+</script>
+    
+
+    
+  </body>
+  
+  
+  
+</html>
