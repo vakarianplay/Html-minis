@@ -1,7 +1,7 @@
 <html>
  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <body>
-    <input type="button" value="Рандом" name="Рандом" id="submit">
+    <input type="button" value="Rnd" name="RANDOMIZE" id="submit">
     <script>
     'use strict';
 var submit = document.getElementById('submit');
@@ -12,8 +12,8 @@ function randomInteger(min, max) {
         return rand;
       }
       
-    var a = +prompt("Случайное число от...", "");
-    var b = +prompt("До... ", "");
+    var a = +prompt("Rand num before...", "");
+    var b = +prompt("To... ", "");
     alert( randomInteger(a, b) );
 return false;
 }
