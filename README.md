@@ -11,3 +11,9 @@
     > For counting symbols on forums
     
     >![Sample work](https://i.ibb.co/GTYPhXc/2020-07-14-14-33-12.png)
+    
+ 3. Day time
+    > Outputs a greeting from the time of day
+    
+    > Link this script in your HTML-file
+   
