@@ -1,0 +1,13 @@
+var Digital=new Date()
+var hours=Digital.getHours()
+
+if (hours>=5&&hours<=11)
+document.write('<b>Good morning</b>')
+else if (hours==12)
+document.write('<b>Good afternoon, bro</b>')
+else if (hours>=12&&hours<=17) 
+document.write('<b>Good afternoon</b>')
+else if (hours>=17&&hours<=23) 
+document.write('<b>Good evening</b>')
+else if (hours>=0&&hours<=5) 
+document.write('<b>Good night</b>')
