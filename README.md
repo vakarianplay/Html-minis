@@ -16,4 +16,9 @@
     > Outputs a greeting from the time of day
     
     > Link this script in your HTML-file
+ 
+ 4. Ticket QR genetator
+    > Generate random code
+    
+    > See more https://github.com/vakarianplay/Html-minis/blob/master/ticket_qr/README.md
    
