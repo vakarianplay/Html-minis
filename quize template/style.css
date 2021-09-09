@@ -1,0 +1,137 @@
+/*multiple selector*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*styling quiz area*/
+.main {
+  background-color: white;
+  margin: 0 auto;
+  width: 60%;
+  margin-top: 30px;
+  padding: 30px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  font-family: 'Lato', sans-serif;
+  margin: 0 auto;
+  color: #b3b3b3;
+  text-align: center;
+  margin-top: 0;
+}
+
+span {
+  float: left;
+}
+
+span {
+  float: left;
+}
+
+p {
+  padding: 10px 10px 0;
+}
+
+.form-area, ul {
+  margin: 20px auto;
+  max-width: 550px;
+}
+
+li {
+  list-style-type: none;
+  text-align: left;
+  background-color: transparent;
+  margin: 10px 5px;
+  padding: 5px 10px;
+  border: 1px solid lightgray;
+  font-weight: normal;
+}
+
+li:hover {
+  background: #ECEEF0;
+}
+
+.selected, .selected:hover {
+  background: #FFDEAD;
+}
+
+.correct, .correct:hover {
+  background: #9ACD32;
+  color: white;
+}
+
+.wrong, .wrong:hover {
+  background: #db3c3c;
+  color: white;
+}
+
+.main button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  width: 20%;
+  border: none;
+  padding: 15px;
+  color: #FFFFFF;
+}
+
+.submit:hover, .submit:active, .submit:focus {
+  background: #43A047;
+}
+
+.submit {
+  background: #4CAF50;
+  min-width: 120px;
+}
+
+/*next question button*/
+.next {
+  background: #fa994a;
+  min-width: 120px;
+}
+
+.next:hover, .next:active, .next:focus {
+  background: #e38a42;
+}
+
+.restart {
+  background-color:
+}
+
+/*Results */
+.circle{
+  position: relative;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  background: #bdc3c7;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.fill{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80%;
+  background: #31a2ac;
+}
+
+h3 {
+  position: absolute;
+  width: 100%;
+  top: 60px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  font-size: 40pt;
+  line-height: 0;
+  font-weight: normal;
+}
+
+.circle p {
+  margin: 400px;
+}
+
+
